@@ -1,1 +1,8 @@
-
+let userName = prompt("Please enter your name:");
+let userAge = prompt("Hello " + userName + ", please enter your age:");
+userAge = Number(userAge);
+if (userAge >= 18) {
+    console.log(userName + ", you are eligible to vote!");
+} else {
+    console.log(userName + ", you are not eligible to vote yet.");
+}
