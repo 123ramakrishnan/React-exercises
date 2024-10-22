@@ -1,1 +1,6 @@
-
+var;
+var myVariable = 10;
+let;
+let myVariable = 20;
+const;
+const myVariable = 30;
